@@ -1,0 +1,9 @@
+// layout convenience classes
+//----------------------------------
+.horizontal-layout{
+  @include horizontal-layout(16px);
+}
+
+.vertical-layout{
+  @include vertial-layout(16px);
+}

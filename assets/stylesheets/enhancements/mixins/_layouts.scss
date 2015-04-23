@@ -1,0 +1,26 @@
+@mixin layout-horizontal($gutter:16px){
+  & > *{
+    float: left;
+    margin-left: $gutter / 2;
+    margin-right: $gutter / 2;
+    &:first-child{
+      margin-left: 0;
+    }
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}
+
+@mixin layout-vertical($gutter:16px){
+  & > *{
+    margin-top: $gutter / 2;
+    margin-bottom: $gutter / 2;
+    &:first-child{
+      margin-top: 0;
+    }
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+}
