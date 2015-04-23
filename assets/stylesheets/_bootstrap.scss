@@ -14,12 +14,12 @@
 @import "bootstrap/grid";
 @import "bootstrap/tables";
 @import "bootstrap/forms";
-@import "bootstrap/buttons";
+@import "overrides/buttons";
 
 // Components
 @import "bootstrap/component-animations";
 @import "bootstrap/dropdowns";
-@import "bootstrap/button-groups";
+@import "overrides/button-groups";
 @import "bootstrap/input-groups";
 @import "bootstrap/navs";
 @import "bootstrap/navbar";
@@ -40,7 +40,7 @@
 @import "bootstrap/close";
 
 // Components w/ JavaScript
-@import "bootstrap/modals";
+@import "overrides/modals";
 @import "bootstrap/tooltip";
 @import "bootstrap/popovers";
 @import "bootstrap/carousel";
